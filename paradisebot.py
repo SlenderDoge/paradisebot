@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
+import os
 
 
 token = str(os.environ.get("BOT_TOKEN"))
